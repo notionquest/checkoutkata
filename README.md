@@ -59,7 +59,7 @@ Java 8, Spring core, JUnit 4 and Maven
 	
 ![Build Result](https://github.com/notionquest/checkoutkata_coverage/blob/master/checkout_kata_build_image.JPG)
 	
-### Code zip html report is present as zip file:-	
+### Code zip html report is present as zip file (checkoutkata_coverage.zip):-	
 
 Please open the index.html to check the code coverage report.
 
