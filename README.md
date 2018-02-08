@@ -57,15 +57,13 @@ Java 8, Spring core, JUnit 4 and Maven
 
     mvn clean test
 	
-![Build Result]
-(https://github.com/notionquest/checkoutkata_coverage/blob/master/checkout_kata_build_image.JPG)	
+![Build Result](https://github.com/notionquest/checkoutkata_coverage/blob/master/checkout_kata_build_image.JPG)
 	
 ### Code zip html report is present as zip file:-	
 
 Please open the index.html to check the code coverage report.
 
-![Build Coverage]
-(https://github.com/notionquest/checkoutkata_coverage/blob/master/checkout_kata_coverage_image.JPG)
+![Build Coverage](https://github.com/notionquest/checkoutkata_coverage/blob/master/checkout_kata_coverage_image.JPG)
 
 ### Improvements:-
 
