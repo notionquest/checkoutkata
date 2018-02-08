@@ -13,12 +13,12 @@ public class ItemPrice implements Serializable {
     private ItemOfferPrice itemOfferPrice;
 
     public ItemPrice(String stockKeepingUnit, Double price) {
-        this.stockKeepingUnit = stockKeepingUnit;
+        this.stockKeepingUnit = stockKeepingUnit.toLowerCase();
         this.price = price;
     }
 
     public ItemPrice(String stockKeepingUnit, Double price, ItemOfferPrice itemOfferPrice) {
-        this.stockKeepingUnit = stockKeepingUnit;
+        this.stockKeepingUnit = stockKeepingUnit.toLowerCase();
         this.price = price;
         this.itemOfferPrice = itemOfferPrice;
     }

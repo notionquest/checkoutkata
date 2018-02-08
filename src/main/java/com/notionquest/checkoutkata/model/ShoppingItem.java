@@ -13,7 +13,7 @@ public class ShoppingItem implements Serializable {
     private Double quantity;
 
     public ShoppingItem(String stockKeepingUnit, Double quantity) {
-        this.stockKeepingUnit = stockKeepingUnit;
+        this.stockKeepingUnit = stockKeepingUnit.toLowerCase();
         this.quantity = quantity;
     }
 

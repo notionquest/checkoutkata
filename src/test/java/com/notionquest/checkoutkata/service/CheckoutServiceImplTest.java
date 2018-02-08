@@ -99,7 +99,7 @@ public class CheckoutServiceImplTest extends BaseTest {
     @Test
     public void shouldReturnTotalAmountForMultipleItems() {
 
-        List<ShoppingItem> shoppingItems = Arrays.asList(new ShoppingItem("B", 1.0), new ShoppingItem("A", 1.0), new ShoppingItem("B", 1.0));
+        List<ShoppingItem> shoppingItems = Arrays.asList(new ShoppingItem("b", 1.0), new ShoppingItem("A", 1.0), new ShoppingItem("B", 1.0));
         Assert.assertEquals(new Double(95.0), checkoutService.calculateTotal(shoppingItems, itemPrices));
     }
 
