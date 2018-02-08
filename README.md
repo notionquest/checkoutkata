@@ -42,9 +42,10 @@ The main responsibility of this class is to calculate the price for each item. I
 
 If the item is returned (customer returning the item) due to some reason, the total amount will be calculated subtracting the amount for the returned item
 
-If the shopping item is not present in item price list, throws exception CheckoutKataApplicationException
+If the shopping item is not present in item price list, it will throw an exception CheckoutKataApplicationException
 
-CheckoutKataApplicationException class - Custom runtime exception class
+**CheckoutKataApplicationException class:-**
+Custom runtime exception class
 
 Constants class - Holds the error message text
 
